@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    padding: 10px;
+    color: white;
+    background-color:#05873baf;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+header h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header p{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+body{
+    background-image: url(bgmonstera.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+section{
+    background-color:#05873baf;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.637);
+    text-align: center;
+}
+div{
+    padding: 5px;
+}
+h3{
+    color: white;
+    text-shadow: 2px solid;
+    text-shadow: 2px solid black;
+}
+form{
+    padding: 10px;
+    font-size: large;
+    line-height: 30px;
+    background-color: #a5e195e0;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 5px;
+}
+form h4{
+    color: #006842;
+    text-shadow: 2px solid;
+}
+select{
+    border-radius: 5px;
+    height: 25px;
+    box-shadow: #006842;
+    text-align: center;
+}
+#button{
+    background-color: #006842;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    margin: 15px;
+    color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    padding: 5px;
+}
+#foto{
+    align-items: center;
+    padding: 2px;
+    border: 1px solid black;
+    display: flex;
+}
+#res{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+img{
+   height: 150px;
+   width: 150px;
+   padding: 5px;
+}
+#icon{
+    height: 50px;
+    width: 50px;
+}

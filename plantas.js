@@ -1,0 +1,72 @@
+const plantas = [
+    {
+        tam: 'grande',
+        scname: 'Monstera speciosa',
+        foto: {url:'https://suculentaslove.com/wp-content/uploads/2021/03/suculenta_monstera_deliciosa_variegata.jpg?ezimgfmt=rs:372x372/rscb3/ng:webp/ngcb3', legenda:'Monstera'},
+        agua: '2x',
+        sol: 'sim',
+    },
+    {
+        tam: 'grande',
+        scname: 'Zamioculca sp.',
+        foto: {url:'https://dvarteverde.com/wp-content/uploads/2018/01/Zamioculca-Foto-1.jpg', legenda: 'Zamioculca'},
+        agua: '1x',
+        sol: 'sim',
+    },
+    {
+        tam: 'grande',
+        scname: 'Fatsia japonica',
+        foto: {url: 'https://www.sitiodamata.com.br/pub/media/catalog/product/cache/02a967fa0e464fd60865ccf512e40f92/c/u/cuidados-com-a-planta-fatsia-japonica-ou-aralia-do-japao.jpg', legenda: 'Aralia'},
+        agua: '2x',
+        sol: 'nao',
+    },
+    {
+        tam: 'grande',
+        scname: 'Dracaena marginata',
+        foto: {url:'https://www.blumenshop.com/media/catalog/product/cache/b9e69f0c7fb800a17fc40cd6847bcb66/2/0/20191003-dracaena-marginata-drachenbaum_int.jpg', legenda: 'Dracena de Madagascar'},
+        agua: '7x',
+        sol: 'sim',
+    },
+    {
+        tam: 'grande',
+        scname: 'Ficus lyrata',
+        foto: {url:'https://www.sitiodamata.com.br/pub/media/catalog/product/cache/80281f1a4d89199560fc0837e49d13da/f/i/ficus-lira-ficus-lyrata._2nd.jpg', legenda: 'Figueira-lira'},
+        agua: '2x',
+        sol: 'sim',
+    },
+    {
+        tam: 'pequenas',
+        scname: 'Fittonia sp.',
+        foto: {url: 'https://cdn.shopify.com/s/files/1/0519/6906/5147/products/fittonia@2x.jpg?v=1609919195', legenda: 'Fitonia'},
+        agua: '7x',
+        sol: 'nao',
+    },
+    {
+        tam: 'pequenas',
+        scname: 'Adiantum raddianum',
+        foto: {url: 'https://samambaiaslindas.com/wp-content/uploads/2019/11/kit-10-mudas-de-avenca-adiantum-raddianum-10-a-20cm-D_NQ_NP_810915-MLB25321103384_012017-F.jpg', legenda: 'Avenca'},
+        agua: '7x',
+        sol: 'nao',
+    },
+    {
+        tam: 'pequenas',
+        scname: 'Epipremum sp.',
+        foto: {url: 'https://atelierblima.com.br/wp-content/uploads/2021/07/kokedama-jiboia.jpg', legenda: 'Jibóia'},
+        agua: '2x',
+        sol: 'sim',
+    },
+    {
+        tam: 'pequenas',
+        scname: 'Pilea peperomioides',
+        foto: {url: 'https://i0.wp.com/superbotanica.com/wp-content/uploads/2022/01/pileapeperomioides00.jpg?fit=664%2C664&ssl=1', legenda: 'Pilea'},
+        agua: '2x',
+        sol: 'sim',
+    },
+    {
+        tam: 'pequenas',
+        scname: 'Peperomia scandens',
+        foto: {url: 'https://media.gazetadopovo.com.br/2021/11/23162426/peperomia-quero-clorofila-1-544x540.jpg', legenda: 'Peperomia'},
+        agua: '2x',
+        sol: 'sim',
+    }
+    ]

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantinhas</title>
+    <script src="jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Seja bem-vindo!</h2>
+        <p>Encontre a planta certa para o seu espaço.</p>
+    </header>
+    <section>
+        <h3>Descreva como é seu ambiente e descubra quais as melhores plantas você.</h3>
+        <form>
+            <div class="tamanho">
+                <h4> Qual tamanho de plantas você está buscando?</h4>
+                <select name="tamanho" id="tamanho">
+                    <option value="" selected disabled hidden>selecione</option>
+                    <option value="grande">Grandes</option>
+                    <option value="peq">Pequenas</option>
+                    <option value="indif">Tanto faz</option>
+                </select>
+            </div>
+            <div class="agua">
+                <h4>Quantas vezes na semana você consegue aguar as plantas?</h4>
+                <select name="agua" id="agua">
+                    <option value="" selected disabled hidden>selecione</option>
+                    <option value="7x">Todo dia</option>
+                    <option value="2x">A cada dois dias</option>
+                    <option value="1x">Uma vez na semana</option>
+                </select>
+            </div>
+            <div class="sol">
+                <h4>Seu ambiente recebe bastante luz do sol?</h4>
+                <select name="sol" id="sol">
+                    <option value="" selected disabled hidden>selecione</option>
+                    <option value="comsol">Sim</option>
+                    <option value="semsol">Não</option>
+                </select>
+            </div>
+            <input type="button" id="button" value="Descobrir sugestões" onclick="descobrir()">
+        </form>
+        <h3>Aqui estão as nossas sugestões para o seu ambiente: <br></h3>
+        <div>
+            <div class="foto" id="res">
+                <figure>
+                    <img src="tea-plant-leaf-icon.png" alt="icone-plantinha" id="icon">
+                <figcaption id="legenda"></figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p> &copy; Feito por Hellen </p>
+    </footer>
+    <script src="plantas.js"></script>
+    <script src="site.js"></script>
+</body>
+</html>
